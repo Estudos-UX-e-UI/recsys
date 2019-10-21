@@ -1,27 +1,62 @@
-<!docstype html>
+<!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title> Consulta Recsys </title>
-    <img id="imagem" src="https://i.imgur.com/cipuQfh.jpg"/>
-    <div id="texto">O que você deseja saber sobre o Recsys?</div>
-    <style>
-#imagem {
-width: 100px;
-height 200px;
-}
-
-#texto {
-position: absolute;
-margin-top: -30px;
-}
-</style>
+            <link rel='stylesheet' href='https://unpkg.com/bulma@0.8.0/css/bulma.min.css'>
+        <!--<link rel="stylesheet" href="../css/kanban.css">-->
+        <script src="https://kit.fontawesome.com/7dc3015a44.js" crossorigin="anonymous"></script>
 </head>
     <body>
-    <h1>O que você deseja saber sobre o Recsys?</h1> <br>
-<input placeholder="Procurar por">
-    <h2>Além desta pesquisa</h2>
-    <p><h4>Você gostaria de saber quais as especialidades dos alunos e professores do PPGI - UFRJ<br>
-    e ficar por dentro sobre as linhas de pesquisa que estão sendo desenvolvidas? Acesse Activ-ufrj</h4><br>
-<a href=" https://activufrj.nce.ufrj.br/homepage">Clique aqui</a>
+          <nav class="navbar has-shadow">
+
+          <div class="container">
+                <div class="navbar-brand"><a class="navbar-item" href="../"><img src="http://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox"/></a>
+                <div class="navbar-burger burger" data-target="navMenu"><span></span><span></span><span></span></div>
+            </div>
+            <div class="navbar-menu" id="navMenu">
+                <div class="navbar-end">
+                    <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link">Account</a>
+                    <div class="navbar-dropdown"><a class="navbar-item">Dashboard</a><a class="navbar-item">Profile</a><a class="navbar-item">Settings</a>
+                    <hr class="navbar-divider" />
+                    <div class="navbar-item">Logout</div>
+               </div>
+            </div>
+        </div>
+      </div>
+   </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-body has-background-info">
+    <div class="container">
+         <h1 class="title">
+           O que você deseja saber sobre o Recsys?
+         </h1>
+       <div class="hero-body">
+            <div class="container">
+                 <div class="card">
+            <div class="card-content">
+                                <div class="content">
+                            <div class="control has-icons-left has-icons-right">
+                                <input class="input is-large" type="search"/>
+                                <span class="icon is-medium is-left">
+                                    <i class="fa fa-search"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</section>
+
+    <div class="body">
+   <h2 class="subtitle">
+        Além desta pesquisa, Você gostaria de saber quais as especialidades dos alunos e professores do PPGI - UFRJ
+        e ficar por dentro sobre as linhas de pesquisa que estão sendo desenvolvidas? Acesse Activ-ufrj
+   </h2>
+   <a href=" https://activufrj.nce.ufrj.br/homepage">Clique aqui</a>
+    </div>
+
 </body>
 </html>
